@@ -37,7 +37,7 @@ function Board({ xIsNext, squares, onPlay }) {
 
   return (
     <div className={styles.gameBoardContainer}>
-      <h1 style={{color:'grey', fontSize:'1.4rem'}}>Dylan's Tic-Tac-Toe</h1>
+      <h1 style={{color:'grey', fontSize:'1.4rem'}}>Dylan&apos;s Tic-Tac-Toe</h1>
       <div className={`${styles.status} ${winner ? styles.winnerText : ''}`}>{status}</div>
       <div className={styles.gameBoard}>
         {squares.map((square, i) => (
